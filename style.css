@@ -1,5 +1,19 @@
-a{
-	text-decoration: none;
+#header{
+	padding: 10px;
+	margin: 10px;
+}
+
+#image-quote-div{
+	margin: 30px;
+}
+
+#quote-div{
+	margin: 30px;
+}
+
+#quote-div i{
+	float: right;
+	font-size: 18px;
 }
 
 #quote-div{
@@ -25,20 +39,34 @@ a{
 	font-size: 18px;	
 	color: black;
 }
-/*
-q::before{
-	content: open-quote;
-	font-size: 58px;
-}
 
-q::after{
-	content: close-quote;
-	font-size: 48px;
-}
-*/
 #img{
 	width: auto;
 	height: 300px;
+}
+
+blockquote p{
+	display: inline;
+}
+
+#img{
+	width: auto;
+	height: 350px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+#readmorerow{
+	padding: 15px;
+	background-color:#ccc;
+	color: wine;
+
 }
 
 
