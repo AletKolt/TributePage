@@ -2,55 +2,43 @@ a{
 	text-decoration: none;
 }
 
-blockquote{
-	background: #f9f9f9;
-	border-left: 10px solid #ccc;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
-	quotes: "\201C""\201D";
+#quote-div{
+		background: #f9f9f9;
+	border-left: 10px solid black;
+	padding: 15px;
+	height: 250px;
+	margin: 12px
 }
 
-blockquote:before{
-	color: #ccc;
+#quote-div:nth-child(1){
 	content: open-quote;
-	font-size: 6em;
-	line-height: 0.1em;
-	margin-right: 0.25em;
-	vertical-align: 0.4em;
+	font-size: 30px;
 }
 
-blockquote:after{
-	color: #ccc;
+#quote-div:nth-child(3){
 	content: close-quote;
-	font-size: 6em;
-	line-height: 0.1em;
-	float: right;
-	margin-top: 0.4em;
+	font-size: 30px;
 }
 
-blockquote p{
-	display: inline;
-}
-
-q{
+#quote-div p{
 	display: inline;
 	font-size: 18px;	
-	color: #ccc;
+	color: black;
 }
-
+/*
 q::before{
 	content: open-quote;
-	font-size: 48px;
+	font-size: 58px;
 }
 
 q::after{
 	content: close-quote;
-	font-size: 28px;
+	font-size: 48px;
 }
-
+*/
 #img{
 	width: auto;
-	height: 350px;
+	height: 300px;
 }
 
 
