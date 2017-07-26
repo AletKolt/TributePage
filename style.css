@@ -11,33 +11,19 @@
 	margin: 30px;
 }
 
+blockquote{
+	border-left: 0.5em 10px #f9f9f9;
+
+}
+
+blockquote::before{
+	content: open-quote;
+	font-size: 24px;
+}
+
 #quote-div i{
 	float: right;
 	font-size: 18px;
-}
-
-#quote-div{
-		background: #f9f9f9;
-	border-left: 10px solid black;
-	padding: 15px;
-	height: 250px;
-	margin: 12px
-}
-
-#quote-div:nth-child(1){
-	content: open-quote;
-	font-size: 30px;
-}
-
-#quote-div:nth-child(3){
-	content: close-quote;
-	font-size: 30px;
-}
-
-#quote-div p{
-	display: inline;
-	font-size: 18px;	
-	color: black;
 }
 
 #img{
@@ -66,7 +52,6 @@ ul li{
 	padding: 15px;
 	background-color:#ccc;
 	color: wine;
-
 }
 
 
